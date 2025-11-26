@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Samira</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* CSS customizado */
+        body {
+            scroll-behavior: smooth;
+        }
+        section {
+            color: #343a40;
+            padding: 60px 0;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .skills .progress {
+            height: 25px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #f04040;
+            color: white;
+            padding: 30px 0;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Samira Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Sobre mim -->
+    <section id="sobre" class="bg-light text-dark">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded-circle" alt="Larissa">
+                </div>
+                <div class="col-md-8">
+                    <h2>Sobre mim</h2>
+                    <p>Olá! Meu nome é Samira Florian. Tenho experiência na aréa de tecnologia. Como pacote office, implantação de redes, operador de microcomputador e POWERBI. Estou sempre em busca de novos desafios para aprimorar minhas habilidades e entregar soluções criativas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+   <!-- HABILIDADES --> 
+
+  <section id="habilidades" class="container py-5"> 
+
+    <h2 class="mb-3">Habilidades</h2> 
+
+    <ul> 
+
+      <li>HTML</li>           
+
+      <li>Bootstrap</li> 
+
+      <li>GitHub</li> 
+
+      <li>Canva </li> 
+
+      <li>Criadora de sites simples</li> 
+
+      <li>Aprender rapido</li> 
+
+      <li> Boa comunicação</li> 
+
+      <li>Proatividade</li> 
+
+    </ul> 
+
+  </section> 
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Projetos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/Captura de tela 2025-11-25 161512.png" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 1</h5>
+                            <p class="card-text">Este projeto fiz um slide de 10 página resumindo oque é implantção de redes.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/Captura de tela 2025-11-25 161600.png" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 2</h5>
+                            <p class="card-text">Nesse projeto fiz uma apresentação sobre o booststrap falando resumidamente oque é, e como funciona. </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/Captura de tela 2025-11-25 161654.png" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 3</h5>
+                            <p class="card-text">Já esse slide eu fiz pra apresentar para sala, fiz ele gamma e ele fala resumidamente como funciona a implantção de redes.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2 class="text-center mb-5">Contato</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Seu email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2025 Samira Florian. Feito com carinho.</p>
+            <p>
+                
+                <a href="https://github.com/samiriats/portifolio-TBT" class="text-white me-3">GitHub</a>
+                <a href="#" class="text-white">Instagram</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
